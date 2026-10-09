@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>KOLTUK — Berberin Yeni Standardı (2026)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="deck-mode light-theme">
+
+  <!-- TOP APPLE HEADER -->
+  <header class="pitch-header">
+    <div class="header-inner">
+      <div class="brand-minimal">
+        <span class="brand-monogram">K</span>
+        <span class="brand-title">KOLTUK</span>
+        <span class="brand-dot"></span>
+        <span class="brand-sub">Erkek Berberleri Özel Sunumu</span>
+      </div>
+
+      <!-- SLIDE NAVIGATION PILL -->
+      <nav class="slide-nav-pill">
+        <button class="nav-dot active" data-slide="0"><span>01</span> Vizyon</button>
+        <button class="nav-dot" data-slide="1"><span>02</span> Müşteri Akışı</button>
+        <button class="nav-dot" data-slide="2"><span>03</span> Salon iPad</button>
+        <button class="nav-dot" data-slide="3"><span>04</span> WhatsApp</button>
+        <button class="nav-dot" data-slide="4"><span>05</span> 1.000 Kartvizit</button>
+        <button class="nav-dot" data-slide="5"><span>06</span> Fiyat & Yatırım</button>
+      </nav>
+
+      <div class="header-right">
+        <span class="device-pill">2026 Edition</span>
+        <button class="btn-fullscreen" id="fsToggle" title="Tam Ekran Modu">⛶</button>
+      </div>
+    </div>
+    <div class="top-progress"><div class="progress-fill" id="progressBar"></div></div>
+  </header>
+
+  <!-- SLIDES DECK -->
+  <main class="slides-container" id="slidesContainer">
+
+    <!-- SLIDE 01: VİZYON / BÜYÜK FIRSAT -->
+    <section class="slide active" id="slide-0">
+      <div class="slide-inner hero-slide">
+        <div class="badge-pill">
+          <span class="sparkle">💈</span>
+          <span>ERKEK BERBERLERİ İÇİN 2026 MODEL İŞLETİM SİSTEMİ</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Telefonu bırakın. <br>
+          <span class="text-gradient">Koltukları doldurun.</span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          Elinizde makas varken randevu defteri tutmayın. Müşterileriniz saniyeler içinde randevu alsın, gelmeyenler elensin, dükkanınız ayda <strong>40.000 ₺ ek ciro</strong> kazansın.
+        </p>
+
+        <!-- INFOGRAPHIC STATS SHAPES -->
+        <div class="infographic-stats-grid">
+          <div class="info-shape-card">
+            <div class="shape-icon-circle green">
+              <span>+₺42K</span>
+            </div>
+            <div class="shape-body">
+              <span class="shape-val">Ortalama Ek Ciro</span>
+              <p class="shape-text">Boş kalan koltukların ve son dakika iptallerinin anında doldurulmasıyla.</p>
+            </div>
+          </div>
+
+          <div class="info-shape-card">
+            <div class="shape-icon-circle dark">
+              <span>0</span>
+            </div>
+            <div class="shape-body">
+              <span class="shape-val">Bölünen Tıraş</span>
+              <p class="shape-text">Müşterinin saçını keserken telefonu kulağa sıkıştırma devri tamamen kapanır.</p>
+            </div>
+          </div>
+
+          <div class="info-shape-card">
+            <div class="shape-icon-circle gold">
+              <span>%94</span>
+            </div>
+            <div class="shape-body">
+              <span class="shape-val">No-Show Azalması</span>
+              <p class="shape-text">WhatsApp 2 saat önce hatırlatır; gelmeyen müşterinin güven puanı anında düşer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-action-row">
+          <button class="btn-apple-black btn-lg" onclick="goToSlide(1)">
+            <span>Sunumu Başlat (Sıradaki: Müşteri Deneyimi)</span>
+            <span class="arrow">&rarr;</span>
+          </button>
+          <span class="key-hint">İlerlemek için <strong>Space</strong> veya <strong>&rarr;</strong> tuşuna basın</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 02: MÜŞTERİ AKIŞI & IPHONE 16 PRO -->
+    <section class="slide" id="slide-1">
+      <div class="slide-inner two-col-layout">
+        
+        <div class="col-content">
+          <div class="badge-pill">02 / MÜŞTERİNİN GÖZÜNDEN</div>
+          <h2 class="slide-heading">
+            Sıfır sürtünme. <br>
+            <span class="text-gradient">15 saniyede randevu.</span>
+          </h2>
+          <p class="slide-lead">
+            Uygulama indirme yok, şifre hatırlama yok. Müşteri verdiğiniz kartvizitteki QR'ı okutur; doğrudan dükkanınızın prestijli vitrini açılır.
+          </p>
+
+          <!-- FLOW DIAGRAM INFOGRAPHIC -->
+          <div class="flow-steps-infographic">
+            <div class="flow-step-item">
+              <div class="step-num-badge">1</div>
+              <div class="step-info">
+                <strong>QR Kod Okutulur</strong>
+                <span>Müşteri başka berberleri asla görmez; doğrudan sizin dükkanınız açılır.</span>
+              </div>
+            </div>
+            <div class="flow-step-line"></div>
+            <div class="flow-step-item">
+              <div class="step-num-badge">2</div>
+              <div class="step-info">
+                <strong>Usta & Hizmet Seçimi</strong>
+                <span>Ustanın gerçek fotoğrafını görerek saç, sakal ve bakım saatini seçer.</span>
+              </div>
+            </div>
+            <div class="flow-step-line"></div>
+            <div class="flow-step-item">
+              <div class="step-num-badge">3</div>
+              <div class="step-info">
+                <strong>Dükkanda Ödeme</strong>
+                <span>Kredi kartı komisyonu yok. Müşteri her zamanki gibi tıraş sonrası kasada öder.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LIGHT TITANIUM IPHONE 16 PRO WITH REAL PHOTOS -->
+        <div class="col-visual">
+          <div class="iphone-light-frame">
+            <div class="dynamic-island-light">
+              <div class="island-camera"></div>
+            </div>
+
+            <div class="iphone-light-screen">
+              <!-- Shop Cover Photo Banner -->
+              <div class="phone-shop-cover">
+                <img src="assets/shop_interior.jpg" alt="Dükkan Vitrini" class="shop-cover-img">
+                <div class="cover-gradient-overlay"></div>
+                <div class="shop-floating-pill">
+                  <span class="live-status-dot"></span>
+                  <span>The Heritage Barber • Nişantaşı</span>
+                  <span class="score-badge">4.9 ★</span>
+                </div>
+              </div>
+
+              <!-- Campaign Promo Card -->
+              <div class="light-campaign-banner">
+                <span class="camp-tag">🔥 SALI ÖZEL KAMPANYA</span>
+                <p>Saç Kesim + Sakal Tasarım + Sıcak Havlu Masajı</p>
+                <div class="camp-price">
+                  <span class="old-p">₺950</span>
+                  <span class="new-p">₺800</span>
+                </div>
+              </div>
+
+              <!-- Service Selector -->
+              <div class="picker-section-label">Hizmet Seçin (Tıklayıp Deneyin):</div>
+              <div class="light-services-list">
+                <div class="light-svc-item selected" onclick="toggleDemoService(this, 500, 'Saç Kesim')">
+                  <div class="svc-icon-box">✂️</div>
+                  <div class="svc-txt">
+                    <strong>Saç Kesim & Yıkama</strong>
+                    <span>⏱️ 45 dakika</span>
+                  </div>
+                  <span class="svc-p">₺500</span>
+                </div>
+                <div class="light-svc-item selected" onclick="toggleDemoService(this, 300, 'Sakal Tasarım')">
+                  <div class="svc-icon-box">🪒</div>
+                  <div class="svc-txt">
+                    <strong>Sakal Tasarım & Ustura</strong>
+                    <span>⏱️ 25 dakika</span>
+                  </div>
+                  <span class="svc-p">₺300</span>
+                </div>
+                <div class="light-svc-item" onclick="toggleDemoService(this, 250, 'Cilt Bakımı')">
+                  <div class="svc-icon-box">🧖</div>
+                  <div class="svc-txt">
+                    <strong>Cilt Bakımı & Kil Maskesi</strong>
+                    <span>⏱️ 20 dakika</span>
+                  </div>
+                  <span class="svc-p">₺250</span>
+                </div>
+              </div>
+
+              <!-- Barber Chips WITH REAL PORTRAITS -->
+              <div class="picker-section-label mt-2">Usta Seçimi:</div>
+              <div class="light-barber-grid">
+                <div class="l-barber active" onclick="selectDemoBarber(this, 'Ahmet Usta')">
+                  <img src="assets/barber_ahmet.jpg" alt="Ahmet Usta" class="barber-round-photo">
+                  <strong>Ahmet Usta</strong>
+                  <span class="l-sub">Baş Berber</span>
+                </div>
+                <div class="l-barber" onclick="selectDemoBarber(this, 'Sinan Usta')">
+                  <img src="assets/barber_sinan.jpg" alt="Sinan Usta" class="barber-round-photo">
+                  <strong>Sinan Usta</strong>
+                  <span class="l-sub">Fade Uzmanı</span>
+                </div>
+                <div class="l-barber" onclick="selectDemoBarber(this, 'İlk Müsait')">
+                  <div class="barber-fast-icon">⚡</div>
+                  <strong>Fark Etmez</strong>
+                  <span class="l-sub">En Hızlı Koltuk</span>
+                </div>
+              </div>
+
+              <!-- Time Buttons -->
+              <div class="picker-section-label mt-2">Bugünkü Boş Saatler:</div>
+              <div class="light-times-row">
+                <button class="l-time disabled">14:00 (Dolu)</button>
+                <button class="l-time active" onclick="selectDemoTime(this, '15:30')">15:30</button>
+                <button class="l-time" onclick="selectDemoTime(this, '16:45')">16:45</button>
+                <button class="l-time" onclick="selectDemoTime(this, '18:00')">18:00</button>
+              </div>
+
+              <!-- Total & Confirm Bar -->
+              <div class="light-phone-bottom">
+                <div class="phone-summary-col">
+                  <span class="lbl-dim">Toplam Tutar:</span>
+                  <strong class="phone-total-val" id="demoPhoneTotal">₺800</strong>
+                </div>
+                <button class="btn-phone-submit" onclick="triggerPhoneBooking()">
+                  Randevuyu Onayla &rarr;
+                </button>
+              </div>
+
+              <!-- Live Toast Overlay -->
+              <div class="phone-light-toast" id="phoneToast">
+                <div class="toast-inner">
+                  <span class="t-check">✓</span>
+                  <div>
+                    <strong>Randevunuz Alındı!</strong>
+                    <p id="toastDetail">Ahmet Usta • Bugün 15:30</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SLIDE 03: SALON EKRANI (IPAD PRO VIEW WITH USER PHOTOS) -->
+    <section class="slide" id="slide-2">
+      <div class="slide-inner two-col-layout reverse-mobile">
+        
+        <!-- IPAD PRO CLEAN LIGHT SCREEN WITH RICH PHOTOS -->
+        <div class="col-visual">
+          <div class="ipad-light-frame">
+            <div class="ipad-inner-canvas">
+              
+              <!-- iPad Top Bar -->
+              <div class="ipad-status-bar">
+                <div class="ipad-title-group">
+                  <span class="pulse-red-dot"></span>
+                  <strong>THE HERITAGE BARBER</strong>
+                  <span class="badge-ipad-live">Ayna Yanı Canlı Akış</span>
+                </div>
+                <div class="ipad-live-clock" id="liveClock">15:15 • Salı</div>
+                <div class="ipad-kpi-chips">
+                  <span class="kpi-chip">Bugün: <strong>19 Randevu</strong></span>
+                  <span class="kpi-chip highlight">Kasa: <strong>₺8.900</strong></span>
+                </div>
+              </div>
+
+              <!-- Chairs 2-Col View -->
+              <div class="ipad-chairs-grid">
+                
+                <!-- Koltuk 1 -->
+                <div class="chair-card-box">
+                  <div class="chair-card-head">
+                    <div class="chair-head-left">
+                      <img src="assets/barber_ahmet.jpg" alt="Ahmet Usta" class="chair-avatar-img">
+                      <div>
+                        <span class="badge-chair-num">KOLTUK 1</span>
+                        <strong class="chair-barber-name">Ahmet Usta</strong>
+                      </div>
+                    </div>
+                    <span class="chair-badge-active">KOLTUKTA ✂</span>
+                  </div>
+
+                  <!-- Active Haircut with Customer Photo -->
+                  <div class="appointment-card in-chair">
+                    <div class="app-card-top-row">
+                      <img src="assets/cust_murat.jpg" alt="Murat Keskin" class="customer-avatar-photo">
+                      <div class="app-client-meta">
+                        <h4 class="app-client-name">Murat Keskin</h4>
+                        <span class="app-time-txt">14:30 — 15:15 (Koltukta)</span>
+                      </div>
+                      <span class="app-price-tag">₺500</span>
+                    </div>
+
+                    <div class="app-service-badges">
+                      <span>✂️ Saç Kesim</span>
+                      <span>🧖 Sıcak Havlu</span>
+                    </div>
+                    <div class="master-memo-box">
+                      <strong>📝 Usta Notu:</strong> Yanlar 1.5 numara, ense düz. Çayı şekersiz içer. Güven Puanı: 99 ★
+                    </div>
+                  </div>
+
+                  <!-- Next Up Slot (with Emre Photo) -->
+                  <div class="appointment-card next-up" id="ipadNextSlot">
+                    <div class="app-card-top-row">
+                      <img src="assets/cust_emre.jpg" alt="Emre Demir" class="customer-avatar-photo" id="ipadNextAvatar">
+                      <div class="app-client-meta">
+                        <h4 class="app-client-name" id="ipadNextName">Emre Demir</h4>
+                        <span class="app-time-txt blue">15:30 — 16:40 (Sıradaki)</span>
+                      </div>
+                      <span class="app-price-tag blue">₺800</span>
+                    </div>
+
+                    <div class="app-service-badges" id="ipadNextTags">
+                      <span>✂️ Saç Kesim</span>
+                      <span>🪒 Sakal Tasarım</span>
+                    </div>
+                    <div class="wa-sent-badge">
+                      <span>✓✓ WhatsApp ile 2 saat önce hatırlatıldı</span>
+                    </div>
+                    <div class="ipad-btn-actions">
+                      <button class="btn-ipad-action success" onclick="markCustomerArrived()">✓ Geldi</button>
+                      <button class="btn-ipad-action danger" onclick="markCustomerNoShow()">🚫 Gelmedi (No-Show)</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Koltuk 2 -->
+                <div class="chair-card-box">
+                  <div class="chair-card-head">
+                    <div class="chair-head-left">
+                      <img src="assets/barber_sinan.jpg" alt="Sinan Usta" class="chair-avatar-img">
+                      <div>
+                        <span class="badge-chair-num">KOLTUK 2</span>
+                        <strong class="chair-barber-name">Sinan Usta</strong>
+                      </div>
+                    </div>
+                    <span class="chair-badge-active">KOLTUKTA ✂</span>
+                  </div>
+
+                  <div class="appointment-card in-chair">
+                    <div class="app-card-top-row">
+                      <div class="avatar-circle-placeholder">BÖ</div>
+                      <div class="app-client-meta">
+                        <h4 class="app-client-name">Burak Özkan</h4>
+                        <span class="app-time-txt">14:45 — 15:30</span>
+                      </div>
+                      <span class="app-price-tag">₺650</span>
+                    </div>
+
+                    <div class="app-service-badges">
+                      <span>✂️ Skin Fade</span>
+                      <span>🪒 Sakal Tasarım</span>
+                    </div>
+                    <div class="master-memo-box">
+                      <strong>📝 Usta Notu:</strong> 0.5 geçiş, favoriler sivri. Sade maden suyu.
+                    </div>
+                  </div>
+
+                  <div class="appointment-card next-up">
+                    <div class="app-card-top-row">
+                      <div class="avatar-circle-placeholder blue">CY</div>
+                      <div class="app-client-meta">
+                        <h4 class="app-client-name">Caner Yılmaz</h4>
+                        <span class="app-time-txt blue">16:00 — 16:45</span>
+                      </div>
+                      <span class="app-price-tag blue">₺500</span>
+                    </div>
+
+                    <div class="app-service-badges">
+                      <span>✂️ Saç Kesim</span>
+                    </div>
+                    <div class="wa-sent-badge">
+                      <span>✓✓ WhatsApp Hatırlatıldı</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Bottom Walkin button -->
+              <div class="ipad-dock-strip">
+                <button class="btn-walkin-quick" onclick="quickAddWalkin()">+ Kapıdan Giren Müşteriyi Ekle</button>
+                <span class="ipad-sub-info">Aynanızın yanında iPad'de 24 saat açık ve okunur.</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-content">
+          <div class="badge-pill">03 / SALON HUZURU</div>
+          <h2 class="slide-heading">
+            Aynanızın yanında. <br>
+            <span class="text-gradient">2 metreden tek bakışta.</span>
+          </h2>
+          <p class="slide-lead">
+            Duvarda veya tezgahta açık duran iPad sayesinde hangi usta hangi saatte kimi tıraş edecek, müşterinin özel zevkleri ve fotoğrafları ustanın gözünün önündedir.
+          </p>
+
+          <div class="benefit-cards-stack">
+            <div class="benefit-card">
+              <span class="bf-icon">🧠</span>
+              <div>
+                <strong>Müşteri Hafızası (Usta Notları)</strong>
+                <p>"Yanlar 1.5 numara, çayı şekersiz." Müşteri oturduğu an ustanın önünde belirir; müşteri kendini VIP kulüpte hisseder.</p>
+              </div>
+            </div>
+
+            <div class="benefit-card">
+              <span class="bf-icon">⚡</span>
+              <div>
+                <strong>Kapıdan Gireni 3 Saniyede Ekleme</strong>
+                <p>Yoldan geçeni ya da telefonla arayanı tek tıkla boş koltuğa yazın; sistem ona da otomatik WhatsApp yollar.</p>
+              </div>
+            </div>
+
+            <div class="benefit-card">
+              <span class="bf-icon">📊</span>
+              <div>
+                <strong>Akşam Hesap Makinesiyle Uğraşmayın</strong>
+                <p>Hangi usta kaç tıraş yaptı, gün sonu dükkan cirosu ne kadar; anında ustanın ve patronun önünde.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SLIDE 04: WHATSAPP OTOMASYONU & NO-SHOW KALKANI -->
+    <section class="slide" id="slide-3">
+      <div class="slide-inner two-col-layout">
+        
+        <div class="col-content">
+          <div class="badge-pill">04 / SIFIR İŞ YÜKÜ</div>
+          <h2 class="slide-heading">
+            Siz tıraştayken, <br>
+            <span class="text-gradient">WhatsApp asistanınız çalışır.</span>
+          </h2>
+          <p class="slide-lead">
+            SMS devri bitti. Türk müşterisi sadece WhatsApp okur. Koltuk, randevu alındığında, randevudan 2 saat önce ve tıraş sonrasında resmi WhatsApp'tan mesaj atar.
+          </p>
+
+          <!-- INFOGRAPHIC METRIC BOXES -->
+          <div class="wa-infographic-boxes">
+            <div class="wa-info-pill">
+              <div class="wa-circle-icon">1</div>
+              <div>
+                <strong>Randevu Alındı Mesajı</strong>
+                <span>Tarih, saat, usta adı ve konum bilgisi anında müşteriye gider.</span>
+              </div>
+            </div>
+
+            <div class="wa-info-pill highlight-gold">
+              <div class="wa-circle-icon gold">2</div>
+              <div>
+                <strong>2 Saat Kala Hatırlatma (No-Show Engelleyici)</strong>
+                <span>"Randevunuza 2 saat kaldı." Unutma bahanesini tamamen yok eder.</span>
+              </div>
+            </div>
+
+            <div class="wa-info-pill">
+              <div class="wa-circle-icon green">3</div>
+              <div>
+                <strong>Tıraş Sonu Teşekkür & 5 Yıldız Puanlama</strong>
+                <span>Tıraştan 1 saat sonra gelen link, Google & dükkan puanınızı uçurur.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="no-show-rule-box">
+            <span class="rule-icon">🛡️</span>
+            <div>
+              <strong>Gelmeyen Müşteri (No-Show) Kuralı:</strong>
+              <p>Randevusuna haber vermeden gelmeyenin Güven Puanı düşer. Tekrarı halinde sistem dükkanınızdan randevu almasını bloke eder. Koltuğunuz asla yanmaz.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- WHATSAPP STREAM VISUAL WITH IN-APP CONTROLS -->
+        <div class="col-visual">
+          <div class="wa-phone-container">
+            <div class="wa-app-bridge-pill">
+              <span class="live-dot-green"></span>
+              <span>KOLTUK Otomasyon Motoru: <strong>Aktif</strong></span>
+              <span class="wa-bridge-stat">%100 Teslimat • 0 SMS Maliyeti</span>
+            </div>
+            <div class="wa-clean-phone-frame">
+              <div class="wa-top-bar-clean">
+                <img src="assets/shop_interior.jpg" alt="Dükkan Avatar" class="wa-avatar-img-circle">
+                <div class="wa-info-meta">
+                  <strong class="wa-salon-name">The Heritage Barber <span class="wa-green-check">✓</span></strong>
+                  <span class="wa-verified-tag">KOLTUK Doğrulanmış WhatsApp Hesabı</span>
+                </div>
+              </div>
+
+              <div class="wa-chat-scroll-area">
+                <div class="wa-chat-day-pill">BUGÜN</div>
+
+                <!-- Message 1 -->
+                <div class="wa-message-card">
+                  <span class="wa-badge-head green">✂ RANDEVUNUZ ONAYLANDI</span>
+                  <p>Merhaba <strong>Emre Bey</strong>,</p>
+                  <p><strong>The Heritage Barber</strong> dükkanındaki randevunuz onaylandı.</p>
+                  <div class="wa-ticket-preview">
+                    <div>📅 <strong>Tarih:</strong> Bugün</div>
+                    <div>⏰ <strong>Saat:</strong> 15:30</div>
+                    <div>💈 <strong>Usta:</strong> Ahmet Usta</div>
+                    <div>✂ <strong>Hizmet:</strong> Saç + Sakal Tasarım</div>
+                    <div>💰 <strong>Tutar:</strong> ₺800 (Dükkanda Ödeme)</div>
+                  </div>
+                  <span class="wa-timestamp">12:30 <span class="wa-blue-ticks">✓✓</span></span>
+                </div>
+
+                <!-- Message 2 -->
+                <div class="wa-message-card alert">
+                  <span class="wa-badge-head amber">⏰ 2 SAAT KALDI HATIRLATMASI</span>
+                  <p>Sayın <strong>Emre Bey</strong>,</p>
+                  <p>Bugün saat <strong>15:30</strong>'da Ahmet Usta ile randevunuza <strong>2 saat</strong> kalmıştır.</p>
+                  <div class="wa-loc-preview">
+                    <span>📍 Teşvikiye Cad. No:24 Nişantaşı, İstanbul</span>
+                    <span class="wa-map-btn">Haritada Yol Tarifi Al &rarr;</span>
+                  </div>
+                  <span class="wa-timestamp">13:30 <span class="wa-blue-ticks">✓✓</span></span>
+                </div>
+
+                <!-- Message 3 -->
+                <div class="wa-message-card success">
+                  <span class="wa-badge-head green">⭐ SIHHATLER OLSUN!</span>
+                  <p>Ahmet Usta'nın hizmetinden memnun kaldınız mı?</p>
+                  <div class="wa-stars-row">★★★★★</div>
+                  <span class="wa-fake-btn">Hizmeti Değerlendir & Yorum Yaz</span>
+                  <span class="wa-timestamp">16:45 <span class="wa-blue-ticks">✓✓</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SLIDE 05: FİZİKSEL HEDİYE: 1.000 ADET QR KARTVİZİT & PLEKSİ STANT (NOW WITH PHOTOREALISTIC IMAGE!) -->
+    <section class="slide" id="slide-4">
+      <div class="slide-inner hero-slide">
+        <div class="badge-pill">05 / SOMUT PRESTİJ & DÜKKAN HEDİYESİ</div>
+        <h2 class="hero-title">
+          1.000 Adet Özel QR Kartvizit <span class="text-gradient">Hediye.</span>
+        </h2>
+        <p class="hero-subtitle">
+          Sadece bir yazılım değil. Dükkanınıza özel basılı 1.000 adet altın varaklı QR kartviziti adresinize ücretsiz teslim ediyoruz.
+        </p>
+
+        <!-- IN-APP UI: QR & KARTVİZİT STÜDYOSU (UYGULAMA İÇİ YÖNETİM EKRANI) -->
+        <div class="inapp-studio-window">
+          <!-- Window Titlebar -->
+          <div class="inapp-window-bar">
+            <div class="mac-traffic-lights">
+              <span class="mac-dot red"></span>
+              <span class="mac-dot yellow"></span>
+              <span class="mac-dot green"></span>
+            </div>
+            <div class="window-title-tab">
+              <span class="app-icon">💈</span>
+              <strong>KOLTUK Panel</strong>
+              <span class="window-sep">/</span>
+              <span>Dükkan Vitrini & QR Kartvizit Stüdyosu</span>
+            </div>
+            <div class="window-badge-pill">
+              <span class="live-dot-green"></span>
+              <span>1.000 Adet Baskı Paketi Aktif</span>
+            </div>
+          </div>
+
+          <!-- Window Inner Layout -->
+          <div class="inapp-studio-content">
+            
+            <!-- Left: Digital & Vector Print Preview Mockup Inside App -->
+            <div class="studio-card-preview-stage">
+              <div class="preview-stage-header">
+                <span class="stage-tag">CANLI BASKI ÖNİZLEMESİ</span>
+                <span class="res-spec">350gr Mat Kuşe + Altın Varak + Kabartma Lak</span>
+              </div>
+
+              <!-- Vector Card Preview Inside App -->
+              <div class="realistic-vector-card">
+                <div class="card-foil-sheen"></div>
+                <div class="card-inner-design">
+                  <div class="card-brand-row">
+                    <div class="card-gold-monogram">
+                      <span class="card-icon">✂️</span>
+                    </div>
+                    <div>
+                      <div class="card-gold-title">THE HERITAGE BARBER</div>
+                      <div class="card-gold-sub">EST. 2024 • NİŞANTAŞI / İSTANBUL</div>
+                    </div>
+                  </div>
+
+                  <div class="card-center-qr-wrap">
+                    <!-- Crisp Scannable Vector QR Code SVG -->
+                    <div class="vector-qr-box">
+                      <svg class="qr-svg" viewBox="0 0 100 100" width="86" height="86">
+                        <!-- Corner 1 -->
+                        <rect x="2" y="2" width="28" height="28" rx="4" fill="#121214"/>
+                        <rect x="6" y="6" width="20" height="20" rx="2" fill="#FAFBFD"/>
+                        <rect x="10" y="10" width="12" height="12" rx="1" fill="#D4AF37"/>
+
+                        <!-- Corner 2 -->
+                        <rect x="70" y="2" width="28" height="28" rx="4" fill="#121214"/>
+                        <rect x="74" y="6" width="20" height="20" rx="2" fill="#FAFBFD"/>
+                        <rect x="78" y="10" width="12" height="12" rx="1" fill="#D4AF37"/>
+
+                        <!-- Corner 3 -->
+                        <rect x="2" y="70" width="28" height="28" rx="4" fill="#121214"/>
+                        <rect x="6" y="74" width="20" height="20" rx="2" fill="#FAFBFD"/>
+                        <rect x="10" y="78" width="12" height="12" rx="1" fill="#D4AF37"/>
+
+                        <!-- Data Grid Pattern -->
+                        <rect x="36" y="6" width="6" height="6" fill="#121214"/>
+                        <rect x="48" y="6" width="6" height="6" fill="#121214"/>
+                        <rect x="58" y="10" width="6" height="6" fill="#D4AF37"/>
+                        <rect x="36" y="16" width="6" height="6" fill="#121214"/>
+                        <rect x="50" y="18" width="6" height="6" fill="#121214"/>
+                        <rect x="6" y="36" width="6" height="6" fill="#121214"/>
+                        <rect x="16" y="38" width="6" height="6" fill="#D4AF37"/>
+                        <rect x="28" y="44" width="6" height="6" fill="#121214"/>
+                        <rect x="36" y="34" width="6" height="6" fill="#121214"/>
+                        <rect x="44" y="42" width="12" height="12" rx="2" fill="#D4AF37"/>
+                        <rect x="60" y="34" width="6" height="6" fill="#121214"/>
+                        <rect x="74" y="38" width="6" height="6" fill="#121214"/>
+                        <rect x="86" y="44" width="6" height="6" fill="#121214"/>
+                        <rect x="6" y="52" width="6" height="6" fill="#D4AF37"/>
+                        <rect x="18" y="58" width="6" height="6" fill="#121214"/>
+                        <rect x="36" y="52" width="6" height="6" fill="#121214"/>
+                        <rect x="48" y="60" width="6" height="6" fill="#121214"/>
+                        <rect x="60" y="52" width="6" height="6" fill="#D4AF37"/>
+                        <rect x="74" y="58" width="6" height="6" fill="#121214"/>
+                        <rect x="86" y="54" width="6" height="6" fill="#121214"/>
+                        <rect x="36" y="74" width="6" height="6" fill="#121214"/>
+                        <rect x="48" y="80" width="6" height="6" fill="#D4AF37"/>
+                        <rect x="60" y="76" width="6" height="6" fill="#121214"/>
+                        <rect x="74" y="82" width="6" height="6" fill="#121214"/>
+                        <rect x="86" y="76" width="6" height="6" fill="#D4AF37"/>
+                      </svg>
+                    </div>
+
+                    <div class="card-scan-text">
+                      <span class="scan-pill">📸 KAMERAYLA OKUTUN</span>
+                      <strong class="card-url">koltuk.app/the-heritage</strong>
+                      <span class="card-prompt">Müşteri doğrudan dükkanınıza bağlanır</span>
+                    </div>
+                  </div>
+
+                  <div class="card-bottom-row">
+                    <span class="gold-badge-chip">★ VIP Müşteri Kartviziti</span>
+                    <span class="gold-powered">KOLTUK</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card Quality Specs Mini Bar -->
+              <div class="card-features-mini-bar">
+                <span>✓ 350gr Mat Kuşe</span>
+                <span>✓ Çift Yön Renkli</span>
+                <span>✓ Altın Varak & Kabartma Lak</span>
+              </div>
+            </div>
+
+            <!-- Right: Order & Print Tracker Dashboard -->
+            <div class="studio-order-dashboard">
+              <div class="order-dash-title">
+                <h4>Fiziksel Paket & Baskı Takip Paneli</h4>
+                <span class="dash-status-badge">✓ DÜKKAN HEDİYESİ</span>
+              </div>
+
+              <div class="dash-items-list">
+                
+                <!-- Item 1: 1000 Cards -->
+                <div class="dash-item-row">
+                  <div class="dash-icon-box">📇</div>
+                  <div class="dash-item-info">
+                    <div class="dash-item-head">
+                      <strong>1.000 Adet Özel QR Kartvizit</strong>
+                      <span class="dash-qty-pill">1.000 ADET</span>
+                    </div>
+                    <p class="dash-item-desc">350gr Mat Kuşe, Çift Yön Renkli, Altın Varak & Kabartma Lak</p>
+                    <div class="dash-progress-wrap">
+                      <div class="dash-progress-bar"><div class="dash-progress-fill" style="width: 100%;"></div></div>
+                      <span class="dash-progress-lbl">Matbaa Baskısı Hazır • Paketlendi</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Delivery Row -->
+                <div class="dash-delivery-pill">
+                  <span class="del-icon">🚚</span>
+                  <div class="del-txt">
+                    <strong>İstanbul İçi Dükkanınıza Elden Teslimat</strong>
+                    <span>Paketiniz özel kurye ile dükkanınıza teslim edilir. Kargo ücretsizdir.</span>
+                  </div>
+                  <span class="del-price-zero">₺0 ÜCRETSİZ</span>
+                </div>
+
+              </div>
+
+              <!-- Quick Export / Share Row -->
+              <div class="dash-action-buttons">
+                <button class="btn-dash-action" onclick="alert('Vektörel PDF baskı dosyası indirildi (300 DPI CMYK)')">
+                  <span>📥 Vektör Baskı PDF İndir</span>
+                </button>
+                <button class="btn-dash-action secondary" onclick="alert('Dükkan linki kopyalandı: koltuk.app/the-heritage')">
+                  <span>🔗 Dükkan Linkini Kopyala</span>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="merch-bottom-banner">
+          <span>🎁 <strong>Dükkanınıza Ücretsiz Teslimat:</strong> 1.000 adet özel VIP QR kartvizit baskı ve kapıya kurye teslimat maliyeti 5.000 TL lisansına dahildir.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 06: FİYAT & YATIRIM (AYLIK 5.000 TL) -->
+    <section class="slide" id="slide-5">
+      <div class="slide-inner hero-slide">
+        <div class="badge-pill">06 / YATIRIM & NET ANLAŞMA</div>
+        <h2 class="hero-title">
+          Tek Fiyat. <span class="text-gradient">Tüm Ayın Huzuru.</span>
+        </h2>
+        <p class="hero-subtitle">
+          Koltuk başına ek ücret veya tıraş başı komisyon yok. Tek ve şeffaf dükkan lisansı.
+        </p>
+
+        <!-- MONUMENTAL PRICE & ROI CARD -->
+        <div class="price-deal-monument">
+          
+          <div class="deal-left-column">
+            <span class="deal-tier-tag">DÜKKAN LİSANSI (HER ŞEY DAHİL)</span>
+            <div class="deal-price-display">
+              <span class="d-currency">₺</span>
+              <span class="d-amount">5.000</span>
+              <span class="d-month">/ ay</span>
+            </div>
+            
+            <p class="deal-statement">
+              Tüm ustalarınız, tüm koltuklarınız ve sınırsız randevu dahildir.
+            </p>
+
+            <div class="deal-roi-calc-box">
+              <span class="calc-tag">BERBERİN KÂR HESABI:</span>
+              <div class="calc-row">
+                <span>Kurtarılan 8 Boş Koltuk:</span>
+                <strong>+₺6.400</strong>
+              </div>
+              <div class="calc-row">
+                <span>WhatsApp Hatırlatmayla Dönen Müşteri:</span>
+                <strong>+₺18.500</strong>
+              </div>
+              <div class="calc-row">
+                <span>Tıraş Bölünmeden Kazanılan Zaman:</span>
+                <strong>+₺15.000</strong>
+              </div>
+              <div class="calc-divider"></div>
+              <div class="calc-row total">
+                <span>Aylık Dükkan Kazanımı:</span>
+                <strong class="green-txt">+₺39.900 / Ay</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="deal-right-column">
+            <h4 class="deal-inc-title">Bu Pakete Dahil Olanlar:</h4>
+            <ul class="deal-features-list">
+              <li>✓ <strong>Sınırsız Koltuk & Usta</strong> Desteği</li>
+              <li>✓ <strong>Resmi WhatsApp Business Otomasyonu</strong> (Onay + 2 Saat Hatırlatma)</li>
+              <li>✓ <strong>Ayna Yanı iPad Canlı Salon Akış Ekranı</strong></li>
+              <li>✓ <strong>No-Show Kalkanı & Müşteri Güven Skoru</strong></li>
+              <li>✓ <strong>HEDİYE 1.000 Adet Özel QR Kartvizit</strong> (Kabartma Laklı)</li>
+              <li>✓ <strong>0 Komisyon</strong> — Ödemelerin %100'ü kasanızda kalır</li>
+              <li>✓ <strong>Aynı Gün Dükkanınızda Kurulum Desteği</strong></li>
+            </ul>
+
+            <div class="deal-cta-wrap">
+              <button class="btn-apple-black btn-deal-lg" onclick="openDealModal()">
+                <span>Dükkanımı Bugün Başlat (5.000 ₺ / Ay)</span>
+                <span class="arrow">&rarr;</span>
+              </button>
+              <span class="deal-sub-note">Taahhüt yok, dilediğiniz ay tek tıkla durdurabilirsiniz.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BOTTOM FLOATING DOCK -->
+  <footer class="deck-bottom-dock">
+    <div class="dock-inner">
+      <button class="dock-btn" id="prevSlideBtn" onclick="prevSlide()" title="Önceki Slayt">
+        <span class="arrow">&larr;</span>
+        <span class="label">Önceki</span>
+      </button>
+
+      <div class="dock-counter">
+        <span id="currentSlideNum">01</span>
+        <span class="sep">/</span>
+        <span id="totalSlideNum">06</span>
+      </div>
+
+      <button class="dock-btn dock-btn-next" id="nextSlideBtn" onclick="nextSlide()" title="Sonraki Slayt">
+        <span class="label">Sonraki</span>
+        <span class="arrow">&rarr;</span>
+      </button>
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY BOTTOM CONVERSION BAR (< 820px) -->
+  <aside class="mobile-sticky-bar" id="mobileStickyBar">
+    <div class="mobile-bar-info">
+      <div class="mobile-bar-tag">DÜKKAN LİSANSI • HER ŞEY DAHİL</div>
+      <div class="mobile-bar-price">₺5.000 <span class="mobile-bar-per">/ ay</span></div>
+    </div>
+    <button class="mobile-bar-btn" onclick="openDealModal()">
+      <span>Hemen Başla</span>
+      <span class="arrow">&rarr;</span>
+    </button>
+  </aside>
+
+  <!-- DEAL ACTIVATION MODAL -->
+  <div class="modal-backdrop" id="dealModal">
+    <div class="apple-modal-box">
+      <button class="modal-close" onclick="closeDealModal()">✕</button>
+      <div class="modal-badge">HIZLI DÜKKAN BAŞVURUSU</div>
+      <h3>Hemen Başlayalım Usta</h3>
+      <p>Bilgilerinizi girin; 1.000 adet özel VIP QR kartvizitiniz bugün baskıya girsin.</p>
+
+      <form class="deal-form" id="barberQuickForm" onsubmit="handleDealSubmit(event)">
+        <div class="inp-group">
+          <label>Usta / Yetkili Adı:</label>
+          <input type="text" id="dealBarberName" required placeholder="Örn: Ahmet Yılmaz">
+        </div>
+        <div class="inp-group">
+          <label>Berber / Dükkan Adı:</label>
+          <input type="text" id="dealShopName" required placeholder="Örn: The Heritage Barber">
+        </div>
+        <div class="inp-row">
+          <div class="inp-group">
+            <label>İlçe (İstanbul):</label>
+            <input type="text" id="dealDistrict" required placeholder="Örn: Nişantaşı / Kadıköy">
+          </div>
+          <div class="inp-group">
+            <label>Koltuk Sayısı:</label>
+            <select id="dealChairs">
+              <option value="1">1 Koltuk</option>
+              <option value="2">2 Koltuk</option>
+              <option value="3" selected>3 Koltuk</option>
+              <option value="4">4 Koltuk</option>
+              <option value="5+">5 ve üzeri</option>
+            </select>
+          </div>
+        </div>
+        <div class="inp-group">
+          <label>WhatsApp Numarası:</label>
+          <input type="tel" id="dealPhone" required placeholder="05XX XXX XX XX">
+        </div>
+
+        <button type="submit" class="btn-apple-black btn-block">
+          Kurulumu Başlat (Aylık 5.000 TL) &rarr;
+        </button>
+        <span class="form-disclaimer">🔒 Kredi kartı istenmez. Ekibimiz dükkanınızı bizzat ziyaret edip kuracaktır.</span>
+      </form>
+
+      <div class="deal-success-screen" id="dealSuccess">
+        <div class="success-ring">✓</div>
+        <h4>Tebrikler Usta! Hayırlı Olsun.</h4>
+        <p>Dükkan kaydınız sisteme alındı. 1.000 adet QR kartvizitiniz hazırlanıyor, ekibimiz kurulum için birazdan sizi arayacak.</p>
+        <button class="btn-apple-black btn-block mt-3" onclick="closeDealModal()">Sunuma Dön</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
